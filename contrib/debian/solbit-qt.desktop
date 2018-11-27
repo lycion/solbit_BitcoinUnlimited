@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Solbit
+Comment=Solbit P2P Cryptocurrency
+Comment[fr]=Solbit, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Solbit, eşten eşe kriptografik sanal para birimi
+Exec=solbit-qt %u
+Terminal=false
+Type=Application
+Icon=solbit128
+MimeType=x-scheme-handler/solbitcash;
+Categories=Office;Finance;

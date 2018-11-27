@@ -1,0 +1,6 @@
+usr/local/bin/solbit-qt usr/bin
+share/pixmaps/solbit32.xpm usr/share/pixmaps
+share/pixmaps/solbit16.xpm usr/share/pixmaps
+share/pixmaps/solbit128.png usr/share/pixmaps
+debian/solbit-qt.desktop usr/share/applications
+debian/solbit-qt.protocol usr/share/kde4/services/
