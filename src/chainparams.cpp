@@ -176,7 +176,7 @@ public:
 
         //genesis = CreateGenesisBlock(1231006505, 2083236893, 0x1d00ffff, 1, 50 * COIN);        
         //genesis = CreateGenesisBlock(1537422969, 2083236893, 0x1f00ffff, 1, 250 * COIN);
-        genesis = CreateGenesisBlock(1543476342, 2083236893, 0x1f00ffff, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1543476342, 95947, 0x1f00ffff, 1, 250 * COIN);
         
 
         /////////GENESIS MINING 2 ///////////////
@@ -214,7 +214,7 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock ==
                //uint256S("0x00000c2330e976acea292f6bdda172dc56f905e6d4ef28f5db9faa8ef1745aa7"));
-               uint256S("0x000002121c6a56318a1c1d9337c9f98165226d37fee75965cee08fe233015228"));
+               uint256S("0x0000f7009da7ff4da2fb5945a1b0975abe9d26a2eca96262f573a9889c9ccd4d"));
         assert(
             //genesis.hashMerkleRoot == uint256S("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
             genesis.hashMerkleRoot == uint256S("0x6580c9e9e2099a6581d588db2a6a09f02ae2820888d19efd8ea284de2821ff24"));
@@ -225,7 +225,7 @@ public:
         //vSeeds.push_back(CDNSSeedData("solbitabc.org", "seed.solbitabc.org", true));
         //vSeeds.push_back(CDNSSeedData("solbitforks.org", "seed-abc.solbitforks.org", true));
         //vSeeds.push_back(CDNSSeedData("bitprim.org", "seed.bitprim.org", true)); // Bitprim
-        vSeeds.push_back(CDNSSeedData("deadalnix.me", "seed.deadalnix.me", true)); // Amaury SÉCHET
+        vSeeds.push_back(CDNSSeedData("211.196.150.250", "211.196.150.250", true));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 0);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 5);
