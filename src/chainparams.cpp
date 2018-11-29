@@ -176,7 +176,7 @@ public:
 
         //genesis = CreateGenesisBlock(1231006505, 2083236893, 0x1d00ffff, 1, 50 * COIN);        
         //genesis = CreateGenesisBlock(1537422969, 2083236893, 0x1f00ffff, 1, 250 * COIN);
-        genesis = CreateGenesisBlock(1537506449, 2083236893, 0x1f00ffff, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1543476342, 2083236893, 0x1f00ffff, 1, 250 * COIN);
         
 
         /////////GENESIS MINING 2 ///////////////
